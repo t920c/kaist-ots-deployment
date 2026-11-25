@@ -145,6 +145,8 @@ samples/report_inference_6sets/
 ├─ int8_mixed/     INT8／FP16 混合精度推論結果
 ├─ README.txt
 └─ selection.csv
+```
+
 這些圖片用於報告中的定性結果展示；正式 mAP 與速度數據仍使用完整的 743 張 VAL 資料集。
 
 
