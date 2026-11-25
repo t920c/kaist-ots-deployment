@@ -146,3 +146,22 @@ samples/report_inference_6sets/
 ├─ README.txt
 └─ selection.csv
 這些圖片用於報告中的定性結果展示；正式 mAP 與速度數據仍使用完整的 743 張 VAL 資料集。
+
+
+## 推論結果圖片預覽
+
+以下使用同一組 EO／IR 場景比較 TensorRT FP16 與 INT8／FP16 Mixed Precision。點擊圖片可查看原始大小。
+
+### TensorRT FP16
+
+| EO 可見光 | IR 熱影像 |
+| --- | --- |
+| [![FP16 EO 推論結果](samples/report_inference_6sets/fp16/PcsPhoto-2026_06_24_16_14_09_EO_part1.jpg)](samples/report_inference_6sets/fp16/PcsPhoto-2026_06_24_16_14_09_EO_part1.jpg) | [![FP16 IR 推論結果](samples/report_inference_6sets/fp16/PcsPhoto-2026_06_24_16_14_09_EO_part2.jpg)](samples/report_inference_6sets/fp16/PcsPhoto-2026_06_24_16_14_09_EO_part2.jpg) |
+
+### TensorRT INT8／FP16 Mixed Precision
+
+| EO 可見光 | IR 熱影像 |
+| --- | --- |
+| [![Mixed INT8 EO 推論結果](samples/report_inference_6sets/int8_mixed/PcsPhoto-2026_06_24_16_14_09_EO_part1.jpg)](samples/report_inference_6sets/int8_mixed/PcsPhoto-2026_06_24_16_14_09_EO_part1.jpg) | [![Mixed INT8 IR 推論結果](samples/report_inference_6sets/int8_mixed/PcsPhoto-2026_06_24_16_14_09_EO_part2.jpg)](samples/report_inference_6sets/int8_mixed/PcsPhoto-2026_06_24_16_14_09_EO_part2.jpg) |
+
+[查看全部六組推論結果](samples/report_inference_6sets/)
