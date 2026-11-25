@@ -117,7 +117,7 @@ TensorRT engine 與顯卡、Windows 版本及 TensorRT 版本有關。
 雲端下載連結：
 
 ```text
-https://drive.google.com/file/d/1Lf-upBNiUMn6ql7iqfGHFaR50FrH5qSx/view?usp=sharing
+https://drive.google.com/file/d/1Ysd8KrbFML1RQ_6MWk0Wg5kvme9GCXjr/view?usp=sharing
 ```
 
 ## 授權
