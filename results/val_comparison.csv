@@ -1,0 +1,5 @@
+model,size_mb,precision,recall,map50,map50_95,inference_ms,fps,precision_mode
+ORIGINAL FP16,7.95,0.9082,0.8883,0.9190,0.5433,13.36,74.85,PyTorch FP16
+ONNX,14.70,0.9121,0.8846,0.9188,0.5453,8.88,112.56,ONNX Runtime FP32
+TensorRT FP16,12.00,0.9147,0.8826,0.9179,0.5459,4.33,230.77,FP16
+TensorRT INT8,7.10,0.8256,0.8045,0.8713,0.5032,4.67,214.27,INT8-FP16 mixed precision

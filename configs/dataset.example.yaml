@@ -1,0 +1,14 @@
+# Copy this file to configs/dataset.local.yaml and update the paths.
+# Each manifest must list only *_EO images; paired *_IR files must exist
+# in the same directory with the same base filename.
+
+path: C:/path/to/github_all_data_v3
+
+train: C:/path/to/manifests/train.txt
+val: C:/path/to/manifests/val.txt
+test: C:/path/to/manifests/test.txt
+
+nc: 2
+names:
+  0: human
+  1: dummy

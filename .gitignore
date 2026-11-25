@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Local runs and caches
+runs/
+*.cache
+!configs/int8_train_calibration.cache
+
+# Local dataset configuration
+configs/dataset.local.yaml
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

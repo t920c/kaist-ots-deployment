@@ -1,0 +1,35 @@
+[
+  {
+    "eo": "samples\\input\\PcsPhoto-2026_06_24_14_54_17_EO.png",
+    "ir": "samples\\input\\PcsPhoto-2026_06_24_14_54_17_IR.png",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.89209,
+        "xyxy": [
+          1036.88,
+          441.32,
+          1165.26,
+          738.94
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.804199,
+        "xyxy": [
+          806.64,
+          461.76,
+          903.72,
+          742.78
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 32.96039999999989,
+      "inference": 2.1365000000002077,
+      "postprocess": 129.60629999999983
+    }
+  }
+]
