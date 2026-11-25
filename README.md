@@ -123,3 +123,26 @@ https://drive.google.com/file/d/1Lf-upBNiUMn6ql7iqfGHFaR50FrH5qSx/view?usp=shari
 ## 授權
 
 自訂 Ultralytics fork 的授權內容請參考 `LICENSE`。
+## 報告用推論範例
+
+`samples/report_inference_6sets` 收錄 6 組具有代表性的 VAL 場景。
+
+挑選內容涵蓋：
+
+- 0～5 個 human
+- 每組包含 1 個 dummy
+- 每組都有配對的 EO 可見光與 IR 熱影像
+- TensorRT FP16 推論結果
+- TensorRT INT8／FP16 Mixed Precision 推論結果
+- `detections.json` 類別、信心分數、邊界框及速度紀錄
+
+資料夾結構：
+
+```text
+samples/report_inference_6sets/
+├─ input/          原始 EO／IR 影像
+├─ fp16/           TensorRT FP16 推論結果
+├─ int8_mixed/     INT8／FP16 混合精度推論結果
+├─ README.txt
+└─ selection.csv
+這些圖片用於報告中的定性結果展示；正式 mAP 與速度數據仍使用完整的 743 張 VAL 資料集。
