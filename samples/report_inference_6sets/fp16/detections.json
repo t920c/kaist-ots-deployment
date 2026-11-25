@@ -1,0 +1,310 @@
+[
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_16_14_09_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_16_14_09_IR.png",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.904785,
+        "xyxy": [
+          865.08,
+          510.94,
+          928.31,
+          670.61
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.612305,
+        "xyxy": [
+          754.59,
+          515.73,
+          813.99,
+          669.65
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.408203,
+        "xyxy": [
+          754.27,
+          514.77,
+          813.03,
+          669.33
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 35.73320000000013,
+      "inference": 3.9280000000001536,
+      "postprocess": 120.20609999999988
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_18_34_36_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_18_34_36_IR.png",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.879883,
+        "xyxy": [
+          734.47,
+          497.84,
+          766.41,
+          587.9
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.774414,
+        "xyxy": [
+          839.53,
+          487.95,
+          874.66,
+          590.13
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.741699,
+        "xyxy": [
+          777.9,
+          502.32,
+          808.56,
+          588.54
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.577637,
+        "xyxy": [
+          890.63,
+          498.48,
+          915.54,
+          589.81
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.458984,
+        "xyxy": [
+          809.52,
+          494.97,
+          843.37,
+          590.77
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.388672,
+        "xyxy": [
+          879.77,
+          500.08,
+          911.07,
+          590.77
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.376709,
+        "xyxy": [
+          809.84,
+          493.69,
+          843.05,
+          589.49
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.363037,
+        "xyxy": [
+          874.02,
+          500.4,
+          896.38,
+          590.45
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 3.076100000000359,
+      "inference": 2.3623000000005945,
+      "postprocess": 2.0362000000000435
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_18_45_34_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_18_45_34_IR.png",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.822266,
+        "xyxy": [
+          776.94,
+          507.11,
+          804.41,
+          573.53
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.802734,
+        "xyxy": [
+          811.43,
+          502.0,
+          838.9,
+          573.53
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 3.121400000000385,
+      "inference": 2.4606999999994272,
+      "postprocess": 1.5692000000004924
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_51_10_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_51_10_IR.png",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.892578,
+        "xyxy": [
+          828.04,
+          521.79,
+          891.27,
+          677.63
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.884766,
+        "xyxy": [
+          589.49,
+          509.34,
+          664.86,
+          678.59
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.816895,
+        "xyxy": [
+          942.68,
+          519.56,
+          992.5,
+          678.59
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.785156,
+        "xyxy": [
+          726.17,
+          510.94,
+          783.65,
+          676.99
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.504883,
+        "xyxy": [
+          897.01,
+          502.0,
+          950.02,
+          683.38
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 2.8159999999992635,
+      "inference": 2.341699999999669,
+      "postprocess": 1.2734999999999275
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_51_51_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_51_51_IR.png",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.892578,
+        "xyxy": [
+          671.88,
+          578.0,
+          740.86,
+          677.63
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.886719,
+        "xyxy": [
+          900.21,
+          489.54,
+          959.6,
+          677.95
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.363037,
+        "xyxy": [
+          835.38,
+          594.28,
+          896.7,
+          677.95
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 3.0913999999997444,
+      "inference": 2.1548000000004564,
+      "postprocess": 1.1782000000000181
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_58_20_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_58_20_IR.png",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.89502,
+        "xyxy": [
+          892.22,
+          494.01,
+          957.37,
+          678.59
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 2.917899999999918,
+      "inference": 2.5573000000003177,
+      "postprocess": 1.5125000000004718
+    }
+  }
+]

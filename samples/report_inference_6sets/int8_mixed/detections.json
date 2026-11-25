@@ -1,0 +1,288 @@
+[
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_16_14_09_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_16_14_09_IR.png",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.867676,
+        "xyxy": [
+          861.89,
+          511.58,
+          931.5,
+          669.97
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.641602,
+        "xyxy": [
+          749.8,
+          508.38,
+          814.95,
+          668.05
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.606934,
+        "xyxy": [
+          751.08,
+          511.58,
+          812.39,
+          667.41
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 36.81310000000026,
+      "inference": 2.7557000000006937,
+      "postprocess": 114.00290000000001
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_18_34_36_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_18_34_36_IR.png",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.758301,
+        "xyxy": [
+          733.51,
+          493.37,
+          766.09,
+          587.26
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.648926,
+        "xyxy": [
+          839.53,
+          491.46,
+          872.11,
+          589.17
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.555664,
+        "xyxy": [
+          775.67,
+          508.06,
+          808.24,
+          587.9
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.504883,
+        "xyxy": [
+          888.39,
+          502.32,
+          916.49,
+          588.54
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.42627,
+        "xyxy": [
+          812.07,
+          494.01,
+          845.92,
+          589.17
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.399902,
+        "xyxy": [
+          875.62,
+          504.55,
+          908.83,
+          588.86
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 2.8010000000007196,
+      "inference": 2.684100000000633,
+      "postprocess": 1.1260999999995747
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_18_45_34_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_18_45_34_IR.png",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.861816,
+        "xyxy": [
+          810.16,
+          500.08,
+          840.17,
+          576.72
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.495117,
+        "xyxy": [
+          775.67,
+          502.32,
+          805.68,
+          578.32
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 2.7160000000003848,
+      "inference": 2.7444999999994835,
+      "postprocess": 1.212000000000657
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_51_10_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_51_10_IR.png",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.818359,
+        "xyxy": [
+          585.5,
+          508.7,
+          666.29,
+          684.34
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.808594,
+        "xyxy": [
+          722.98,
+          517.0,
+          791.95,
+          681.14
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.742188,
+        "xyxy": [
+          936.61,
+          516.37,
+          997.29,
+          679.23
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.62793,
+        "xyxy": [
+          826.76,
+          518.28,
+          892.54,
+          682.42
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.383057,
+        "xyxy": [
+          939.17,
+          523.39,
+          997.29,
+          679.87
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.252441,
+        "xyxy": [
+          901.17,
+          513.17,
+          947.15,
+          682.42
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 2.7236999999997735,
+      "inference": 2.571800000000124,
+      "postprocess": 1.128000000000462
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_51_51_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_51_51_IR.png",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "human",
+        "confidence": 0.894043,
+        "xyxy": [
+          671.56,
+          578.96,
+          743.73,
+          677.95
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.88623,
+        "xyxy": [
+          901.49,
+          494.33,
+          958.33,
+          679.55
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 2.795800000000348,
+      "inference": 2.6780000000004023,
+      "postprocess": 1.2831000000002035
+    }
+  },
+  {
+    "eo": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_58_20_EO.png",
+    "ir": "samples\\report_inference_6sets\\input\\PcsPhoto-2026_06_24_19_58_20_IR.png",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "dummy",
+        "confidence": 0.933594,
+        "xyxy": [
+          891.91,
+          496.57,
+          955.13,
+          681.14
+        ]
+      }
+    ],
+    "speed_ms": {
+      "preprocess": 3.05340000000065,
+      "inference": 2.914500000000153,
+      "postprocess": 1.3072999999996782
+    }
+  }
+]
